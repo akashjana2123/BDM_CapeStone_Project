@@ -25,7 +25,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score, roc_curve, accuracy_score
 warnings.filterwarnings("ignore")
 
-SALES_FILE="Sales Purchase 22-26 (1).xlsx"; STOCK_FILE="Stock Summary.xlsx"
+SALES_FILE="../../Source_and_Reference/Sales Purchase 22-26 (1).xlsx"; STOCK_FILE="../../Source_and_Reference/Stock Summary.xlsx"
 FIG="figures_final"; os.makedirs(FIG, exist_ok=True)
 DATA_END=pd.Timestamp("2026-02-10")
 log=[]

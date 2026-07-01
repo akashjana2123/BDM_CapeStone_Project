@@ -9,7 +9,7 @@ from openpyxl.formatting.rule import ColorScaleRule
 RF=json.load(open('results_final.json')); RM=json.load(open('results.json')); ANN=json.load(open('annual.json'))
 bd=pd.read_pickle('buyers.pkl'); A=pd.read_pickle('anomdf.pkl'); recon=pd.read_pickle('recon.pkl')
 SM={'Adrita RCN Sale':('Adrita','Sale','RCN'),'Adrita FCN Sale':('Adrita','Sale','FCN'),'Adrita Purchase RCN':('Adrita','Purchase','RCN'),'Adrita Purchase FCN':('Adrita','Purchase','FCN'),'Ankita RCN Sale':('Ankita','Sale','RCN'),'Ankita FCN Sale':('Ankita','Sale','FCN'),'Ankita Purchase RCN':('Ankita','Purchase','RCN'),'Ankita Purchase FCN':('Ankita','Purchase','FCN'),'Ankita Export':('Ankita','Export','FCN')}
-wb0=openpyxl.load_workbook('Sales Purchase 22-26 (1).xlsx',data_only=True);rows=[]
+wb0=openpyxl.load_workbook('../../Source_and_Reference/Sales Purchase 22-26 (1).xlsx',data_only=True);rows=[]
 for sh,(c,f,g) in SM.items():
     ws=wb0[sh]
     for r in range(1,ws.max_row+1):
@@ -281,5 +281,5 @@ lc.add_data(Reference(ws,min_col=15,min_row=5,max_row=rl2),titles_from_data=True
 ws.add_chart(lc,'N20')
 dim(ws,{'A':12,'B':9,'C':8,'D':7,'E':24,'F':13,'G':7,'H':15})
 
-wb.save('Ankita_Adrita_Final_Analysis.xlsx')
+wb.save('../Ankita_Adrita_Final_Analysis_native_charts.xlsx')
 print('saved native-chart workbook:',wb.sheetnames)

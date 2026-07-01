@@ -280,5 +280,5 @@ render();
 </html>'''
 
 HTML = HTML.replace("__DATA__", data)
-open("Cashew_Dashboard.html","w",encoding="utf-8").write(HTML)
+open("../Cashew_Dashboard.html","w",encoding="utf-8").write(HTML)
 print("written, size KB:", round(len(HTML.encode('utf-8'))/1024,1))

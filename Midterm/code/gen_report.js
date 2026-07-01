@@ -5,7 +5,7 @@ AlignmentType,LevelFormat,HeadingLevel,BorderStyle,WidthType,ShadingType,
 VerticalAlign,PageNumber,PageBreak,TabStopType,LeaderType,ExternalHyperlink}=D;
 const o=JSON.parse(fs.readFileSync('results.json'));const fc=o.forecast;
 const pages=fs.existsSync('toc_pages.json')?JSON.parse(fs.readFileSync('toc_pages.json')):{};
-const links=fs.existsSync('links.json')?JSON.parse(fs.readFileSync('links.json')):{};
+const links=fs.existsSync('../../Source_and_Reference/links.json')?JSON.parse(fs.readFileSync('../../Source_and_Reference/links.json')):{};
 const NAVY="1F4E79",ORANGE="C55A11",HDR="1F4E79";
 const inr=n=>Math.round(n).toLocaleString('en-IN');
 const cr=n=>(n/1e7).toFixed(2), lk=n=>(n/1e5).toFixed(1);
@@ -47,7 +47,7 @@ let body=[];
 body.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:1100,after:120},children:[new TextRun({text:"Analytical Study of Ankita Cashew Processing",bold:true,size:36,color:NAVY})]}));
 body.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:600},children:[new TextRun({text:"Mid-term Report for the BDM Capstone Project",bold:true,size:26})]}));
 ["Submitted by","Name: Akash Jana","Roll Number: 23f2000990"].forEach(t=>body.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:80},children:[new TextRun({text:t,size:24})]})));
-body.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:160,after:160},children:[new ImageRun({type:"png",data:fs.readFileSync("iitm_logo.png"),transformation:{width:220,height:220},altText:{title:"IITM",description:"IITM logo",name:"IITM"}})]}));
+body.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{before:160,after:160},children:[new ImageRun({type:"png",data:fs.readFileSync("../../Source_and_Reference/iitm_logo.png"),transformation:{width:220,height:220},altText:{title:"IITM",description:"IITM logo",name:"IITM"}})]}));
 ["IITM Online BS Degree Program,","Indian Institute of Technology Madras, Chennai","Tamil Nadu, India, 600036"].forEach(t=>body.push(new Paragraph({alignment:AlignmentType.CENTER,spacing:{after:60},children:[new TextRun({text:t,size:22})]})));
 body.push(new Paragraph({children:[new PageBreak()]}));
 
@@ -270,4 +270,4 @@ const doc=new Document({
  sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:1440,right:1440,bottom:1440,left:1440}}},
    footers:{default:new Footer({children:[new Paragraph({alignment:AlignmentType.CENTER,children:[new TextRun({text:"Mid-term Report — Ankita Cashew Processing   |   Page ",size:16,color:"888888"}),new TextRun({children:[PageNumber.CURRENT],size:16,color:"888888"})]})]})},
    children:body}]});
-Packer.toBuffer(doc).then(b=>{fs.writeFileSync("Ankita_Cashew_Midterm_Report.docx",b);console.log("written; pages known:",Object.keys(pages).length)});
+Packer.toBuffer(doc).then(b=>{fs.writeFileSync("../Ankita_Cashew_Midterm_Report.docx",b);console.log("written; pages known:",Object.keys(pages).length)});

@@ -30,8 +30,8 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 warnings.filterwarnings("ignore")
 
-SALES_FILE = "Sales Purchase 22-26 (1).xlsx"
-STOCK_FILE = "Stock Summary.xlsx"
+SALES_FILE = "../../Source_and_Reference/Sales Purchase 22-26 (1).xlsx"
+STOCK_FILE = "../../Source_and_Reference/Stock Summary.xlsx"
 FIGDIR = "figures"
 os.makedirs(FIGDIR, exist_ok=True)
 log_lines = []

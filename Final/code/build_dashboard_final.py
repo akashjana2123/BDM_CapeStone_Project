@@ -295,5 +295,5 @@ render();
 </script>
 </body></html>'''
 HTML=HTML.replace("__DATA__",data)
-open("Cashew_Dashboard_Final.html","w",encoding="utf-8").write(HTML)
+open("../Cashew_Dashboard_Final.html","w",encoding="utf-8").write(HTML)
 print("written, size KB:",round(len(HTML.encode('utf-8'))/1024,1))
