@@ -1,0 +1,12 @@
+{
+  "name": "ankita-cashew-midterm-report",
+  "version": "1.0.0",
+  "description": "Builds the BDM mid-term Word report from the Python analysis outputs.",
+  "private": true,
+  "scripts": {
+    "build-report": "node gen_report.js"
+  },
+  "dependencies": {
+    "docx": "^9.7.1"
+  }
+}

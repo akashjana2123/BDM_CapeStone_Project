@@ -1,0 +1,5 @@
+{
+  "_comment": "Paste the portal URLs here, then run: node gen_report.js. Leave a field blank to keep the placeholder text in the report.",
+  "video": "",
+  "letter": ""
+}

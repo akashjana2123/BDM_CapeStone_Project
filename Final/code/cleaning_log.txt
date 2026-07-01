@@ -1,0 +1,14 @@
+[CLEANING] cells scanned in ledgers ............ 5572
+[CLEANING] non-transaction rows skipped ........ 4720
+[CLEANING] 'Closing Balance' lines removed ..... 0
+[CLEANING] exact duplicate rows removed ........ 2
+[CLEANING] clean transactions kept ............. 850
+[CLEANING] missing Amount values after clean ... 0
+[CLEANING] stock monthly rows parsed ........... 312
+[CLEANING] stock closing-balance items ......... 69
+[FORECAST] ARIMA  RMSE=2527935  MAE=2167929
+[FORECAST] Linear RMSE=2181363  MAE=1929917
+[FORECAST] Naive  RMSE=4304027  MAE=3028328
+[YIELD] mean yield=18.5%  sd=4.6%  outliers=['Ankita FY22-23']
+[FIGURES] 13 figures written to ./figures/
+[FINAL] [CLEAN] scanned 5572, skipped 4720, duplicates removed 2, kept 850 | [P&L] kernel price Rs710/kg, cost Rs590/kg, contribution Rs120/kg (16.9%) | [P&L] break-even price Rs590/kg, break-even outturn 18.1% | [BUYER] 130 buyers; tiers {'Low': 7, 'Medium': 90, 'High': 33}; illustrative LR AUC=0.96 acc=0.92 | [ANOMALY] z-flag 12, iso-flag 17, total 29 (3.4%), recon months 3

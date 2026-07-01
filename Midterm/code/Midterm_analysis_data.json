@@ -1,0 +1,468 @@
+{
+  "totals": {
+    "n_txn": 852,
+    "date_min": "2022-04-07",
+    "date_max": "2026-02-10",
+    "total_sales": 297646672.33000004,
+    "total_purchase": 273197824.13,
+    "n_sales": 579,
+    "n_purchase": 273
+  },
+  "company_flow": [
+    {
+      "Company": "Adrita",
+      "Flow": "Purchase",
+      "count": 131,
+      "sum": 112212725.11
+    },
+    {
+      "Company": "Adrita",
+      "Flow": "Sale",
+      "count": 282,
+      "sum": 118122324.74
+    },
+    {
+      "Company": "Ankita",
+      "Flow": "Export",
+      "count": 3,
+      "sum": 1443562.27
+    },
+    {
+      "Company": "Ankita",
+      "Flow": "Purchase",
+      "count": 142,
+      "sum": 160985099.02
+    },
+    {
+      "Company": "Ankita",
+      "Flow": "Sale",
+      "count": 294,
+      "sum": 178080785.32
+    }
+  ],
+  "sales_stats_all": {
+    "count": 579,
+    "mean": 514070.24582038005,
+    "median": 348666.5,
+    "min": 10476.2,
+    "max": 4000000.0,
+    "std": 511706.0675579758,
+    "total": 297646672.33000004
+  },
+  "sales_stats": {
+    "Adrita": {
+      "count": 282,
+      "mean": 418873.49198581564,
+      "median": 290379.5,
+      "min": 13461.89,
+      "max": 2314286.0,
+      "std": 384691.370495248,
+      "total": 118122324.74000001
+    },
+    "Ankita": {
+      "count": 297,
+      "mean": 604459.0827946129,
+      "median": 412381.0,
+      "min": 10476.2,
+      "max": 4000000.0,
+      "std": 594963.9520031515,
+      "total": 179524347.59
+    }
+  },
+  "purchase_stats": {
+    "Adrita": {
+      "count": 131,
+      "mean": 856585.6878625955,
+      "median": 552619.05,
+      "min": 17523.8,
+      "max": 4417662.89,
+      "std": 880126.2031255362,
+      "total": 112212725.11000001
+    },
+    "Ankita": {
+      "count": 142,
+      "mean": 1133697.8804225351,
+      "median": 642031.6799999999,
+      "min": 1906.78,
+      "max": 5041701.28,
+      "std": 1231874.2987559908,
+      "total": 160985099.01999998
+    }
+  },
+  "fy": [
+    {
+      "Company": "Adrita",
+      "FYlabel": "FY22-23",
+      "Flow": "Purchase",
+      "Amount": 26299396.91
+    },
+    {
+      "Company": "Adrita",
+      "FYlabel": "FY22-23",
+      "Flow": "Sale",
+      "Amount": 28202686.78
+    },
+    {
+      "Company": "Adrita",
+      "FYlabel": "FY23-24",
+      "Flow": "Purchase",
+      "Amount": 31293696.55
+    },
+    {
+      "Company": "Adrita",
+      "FYlabel": "FY23-24",
+      "Flow": "Sale",
+      "Amount": 32473595.64
+    },
+    {
+      "Company": "Adrita",
+      "FYlabel": "FY24-25",
+      "Flow": "Purchase",
+      "Amount": 28482361.830000002
+    },
+    {
+      "Company": "Adrita",
+      "FYlabel": "FY24-25",
+      "Flow": "Sale",
+      "Amount": 32029580.15
+    },
+    {
+      "Company": "Adrita",
+      "FYlabel": "FY25-26",
+      "Flow": "Purchase",
+      "Amount": 26137269.82
+    },
+    {
+      "Company": "Adrita",
+      "FYlabel": "FY25-26",
+      "Flow": "Sale",
+      "Amount": 25416462.17
+    },
+    {
+      "Company": "Ankita",
+      "FYlabel": "FY22-23",
+      "Flow": "Purchase",
+      "Amount": 47480660.74
+    },
+    {
+      "Company": "Ankita",
+      "FYlabel": "FY22-23",
+      "Flow": "Sale",
+      "Amount": 44391390.3
+    },
+    {
+      "Company": "Ankita",
+      "FYlabel": "FY23-24",
+      "Flow": "Export",
+      "Amount": 1443562.27
+    },
+    {
+      "Company": "Ankita",
+      "FYlabel": "FY23-24",
+      "Flow": "Purchase",
+      "Amount": 36847858.35
+    },
+    {
+      "Company": "Ankita",
+      "FYlabel": "FY23-24",
+      "Flow": "Sale",
+      "Amount": 42309914.23
+    },
+    {
+      "Company": "Ankita",
+      "FYlabel": "FY24-25",
+      "Flow": "Purchase",
+      "Amount": 44654546.51
+    },
+    {
+      "Company": "Ankita",
+      "FYlabel": "FY24-25",
+      "Flow": "Sale",
+      "Amount": 49056957.74
+    },
+    {
+      "Company": "Ankita",
+      "FYlabel": "FY25-26",
+      "Flow": "Purchase",
+      "Amount": 32002033.42
+    },
+    {
+      "Company": "Ankita",
+      "FYlabel": "FY25-26",
+      "Flow": "Sale",
+      "Amount": 42322523.05
+    }
+  ],
+  "annual_sales_purchase": {
+    "FY22-23": {
+      "Sales": 72594077.08,
+      "Purchase": 73780057.65
+    },
+    "FY23-24": {
+      "Sales": 76227072.14,
+      "Purchase": 68141554.9
+    },
+    "FY24-25": {
+      "Sales": 81086537.89,
+      "Purchase": 73136908.34
+    },
+    "FY25-26": {
+      "Sales": 67738985.22,
+      "Purchase": 58139303.24
+    }
+  },
+  "month_seasonality": {
+    "Apr": 24583466.93,
+    "May": 28225169.23,
+    "Jun": 30025684.259999998,
+    "Jul": 16152528.3,
+    "Aug": 25265982.990000002,
+    "Sep": 26123327.330000002,
+    "Oct": 24530090.68,
+    "Nov": 23133604.56,
+    "Dec": 23363957.13,
+    "Jan": 33868677.94,
+    "Feb": 25631101.990000002,
+    "Mar": 16743080.99
+  },
+  "monthly_sales_ts": {
+    "2022-04": 2752585.0,
+    "2022-05": 13937626.0,
+    "2022-06": 11480125.0,
+    "2022-07": 2293397.0,
+    "2022-08": 2726520.0,
+    "2022-09": 4424643.0,
+    "2022-10": 4276124.0,
+    "2022-11": 7075899.0,
+    "2022-12": 5638115.4,
+    "2023-01": 5419053.56,
+    "2023-02": 4984895.52,
+    "2023-03": 7585093.6,
+    "2023-04": 8247594.75,
+    "2023-05": 6968693.4,
+    "2023-06": 4515903.85,
+    "2023-07": 4028445.2,
+    "2023-08": 6794940.6899999995,
+    "2023-09": 3169586.0,
+    "2023-10": 4572313.62,
+    "2023-11": 5433011.0,
+    "2023-12": 9476960.89,
+    "2024-01": 9690098.55,
+    "2024-02": 11796370.8,
+    "2024-03": 1533153.3900000001,
+    "2024-04": 3236576.3,
+    "2024-05": 2606314.23,
+    "2024-06": 8902258.62,
+    "2024-07": 1126141.6,
+    "2024-08": 7931063.83,
+    "2024-09": 8543258.4,
+    "2024-10": 11536887.32,
+    "2024-11": 4349769.640000001,
+    "2024-12": 4211442.49,
+    "2025-01": 12939012.93,
+    "2025-02": 8078978.53,
+    "2025-03": 7624834.0,
+    "2025-04": 10346710.88,
+    "2025-05": 4712535.6,
+    "2025-06": 5127396.79,
+    "2025-07": 8704544.5,
+    "2025-08": 7813458.47,
+    "2025-09": 9985839.93,
+    "2025-10": 4144765.74,
+    "2025-11": 6274924.92,
+    "2025-12": 4037438.35,
+    "2026-01": 5820512.9,
+    "2026-02": 770857.14
+  },
+  "sales_by_goods": {
+    "FCN": 240532802.2,
+    "RCN": 57113870.13
+  },
+  "top_buyers": [
+    {
+      "name": "ASHWANI KUMAR NEEL KAMAL",
+      "amount": 30087806.53
+    },
+    {
+      "name": "Maa Laxmi Cashew Processing",
+      "amount": 24082071.86
+    },
+    {
+      "name": "M/s Ashwani Kumar Neel Kamal",
+      "amount": 20570081.4
+    },
+    {
+      "name": "DEVIDEEN HANUMANPRASAD",
+      "amount": 17125428.64
+    },
+    {
+      "name": "Satyam Traders",
+      "amount": 10391862.52
+    },
+    {
+      "name": "Nandi Cashew Processing",
+      "amount": 10064273.89
+    },
+    {
+      "name": "Shree Taran Traders",
+      "amount": 7999479.5200000005
+    },
+    {
+      "name": "P P Enterprises",
+      "amount": 7725386.9
+    },
+    {
+      "name": "Sashwat Traders",
+      "amount": 7561262.1
+    },
+    {
+      "name": "Ramesh Chand Naresh Kumar",
+      "amount": 7119040.71
+    }
+  ],
+  "top_suppliers": [
+    {
+      "name": "Neo Traders",
+      "amount": 29283126.68
+    },
+    {
+      "name": "Maa Laxmi Cashew Processing",
+      "amount": 17433598.62
+    },
+    {
+      "name": "AL JESVIN IMPEX AND CONTRACTING PVT LTD",
+      "amount": 16360857.600000001
+    },
+    {
+      "name": "Sahoo Cashew Nut Processing",
+      "amount": 12044505.55
+    },
+    {
+      "name": "PRIME AGRO IMPEX",
+      "amount": 11418959.75
+    },
+    {
+      "name": "Nandi Cashew Processing",
+      "amount": 9619013.0
+    },
+    {
+      "name": "NATURE FOOD INGREDIENTS",
+      "amount": 9009108.6
+    },
+    {
+      "name": "Swarnali Cashew Processing",
+      "amount": 8710193.0
+    },
+    {
+      "name": "Gopal Krishna Cashew Industries",
+      "amount": 8149645.8
+    },
+    {
+      "name": "NARMADHAS ENTERPRISES",
+      "amount": 8054736.83
+    }
+  ],
+  "buyer_concentration_top5": 34.355247498493,
+  "yield_yearwise": [
+    {
+      "Company": "Adrita",
+      "Year": "FY22",
+      "RCN_Purchased": 213803.0,
+      "Kernel_Out": 37290.0,
+      "Wholes_Sold": 26880.0,
+      "Broken_Sold": 10410.0,
+      "Recovery_pct": 17.44,
+      "Whole_share": 72.1
+    },
+    {
+      "Company": "Adrita",
+      "Year": "FY23",
+      "RCN_Purchased": 232306.0,
+      "Kernel_Out": 47030.0,
+      "Wholes_Sold": 32298.0,
+      "Broken_Sold": 14732.0,
+      "Recovery_pct": 20.24,
+      "Whole_share": 68.7
+    },
+    {
+      "Company": "Adrita",
+      "Year": "FY24",
+      "RCN_Purchased": 164656.0,
+      "Kernel_Out": 37555.0,
+      "Wholes_Sold": 23730.0,
+      "Broken_Sold": 13825.0,
+      "Recovery_pct": 22.81,
+      "Whole_share": 63.2
+    },
+    {
+      "Company": "Adrita",
+      "Year": "FY25",
+      "RCN_Purchased": 155513.0,
+      "Kernel_Out": 30772.0,
+      "Wholes_Sold": 20060.0,
+      "Broken_Sold": 10712.0,
+      "Recovery_pct": 19.79,
+      "Whole_share": 65.2
+    },
+    {
+      "Company": "Ankita",
+      "Year": "FY22",
+      "RCN_Purchased": 354439.0,
+      "Kernel_Out": 38385.0,
+      "Wholes_Sold": 24720.0,
+      "Broken_Sold": 13665.0,
+      "Recovery_pct": 10.83,
+      "Whole_share": 64.4
+    },
+    {
+      "Company": "Ankita",
+      "Year": "FY23",
+      "RCN_Purchased": 299996.0,
+      "Kernel_Out": 53264.0,
+      "Wholes_Sold": 35452.0,
+      "Broken_Sold": 17812.0,
+      "Recovery_pct": 17.75,
+      "Whole_share": 66.6
+    },
+    {
+      "Company": "Ankita",
+      "Year": "FY24",
+      "RCN_Purchased": 296189.0,
+      "Kernel_Out": 41060.0,
+      "Wholes_Sold": 29110.0,
+      "Broken_Sold": 11950.0,
+      "Recovery_pct": 13.86,
+      "Whole_share": 70.9
+    },
+    {
+      "Company": "Ankita",
+      "Year": "FY25",
+      "RCN_Purchased": 213785.0,
+      "Kernel_Out": 53427.0,
+      "Wholes_Sold": 36720.0,
+      "Broken_Sold": 16707.0,
+      "Recovery_pct": 24.99,
+      "Whole_share": 68.7
+    }
+  ],
+  "yield_company": [
+    {
+      "Company": "Adrita",
+      "RCN": 766278.0,
+      "Kern": 152647.0,
+      "W": 102968.0,
+      "B": 49679.0,
+      "Recovery_pct": 19.92,
+      "Whole_share": 67.5
+    },
+    {
+      "Company": "Ankita",
+      "RCN": 1164409.0,
+      "Kern": 186136.0,
+      "W": 126002.0,
+      "B": 60134.0,
+      "Recovery_pct": 15.99,
+      "Whole_share": 67.7
+    }
+  ]
+}

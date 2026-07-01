@@ -1,0 +1,10 @@
+# Python dependencies for analysis_ankita.py (mid-term) and analysis_final.py (final)
+# Install with:  pip install -r requirements.txt
+# Tested with Python 3.10+
+
+pandas>=2.0
+numpy>=1.24
+statsmodels>=0.14
+scikit-learn>=1.3
+matplotlib>=3.7
+openpyxl>=3.1

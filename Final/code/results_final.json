@@ -1,0 +1,511 @@
+{
+  "clean_counts": {
+    "scanned": 5572,
+    "skipped": 4720,
+    "duplicates": 2,
+    "kept": 850
+  },
+  "pnl": {
+    "assume": {
+      "rcn_price": 123.2,
+      "kernel_price": 709.8,
+      "outturn": 0.22,
+      "processing_per_kg_kernel": 30.0
+    },
+    "base": {
+      "price": 709.7841456035279,
+      "rcn_cost": 559.834649531488,
+      "proc": 30.0,
+      "total_cost": 589.834649531488,
+      "contribution": 119.94949607203989,
+      "margin_pct": 16.89943299170864
+    },
+    "grade": {
+      "Whole": {
+        "price": 820.0,
+        "rcn_cost": 559.834649531488,
+        "proc": 30.0,
+        "total_cost": 589.834649531488,
+        "contribution": 230.16535046851197,
+        "margin_pct": 28.068945179086825
+      },
+      "Broken": {
+        "price": 480.0,
+        "rcn_cost": 559.834649531488,
+        "proc": 30.0,
+        "total_cost": 589.834649531488,
+        "contribution": -109.83464953148803,
+        "margin_pct": -22.88221865239334
+      }
+    },
+    "whole_price": 820,
+    "broken_price": 480,
+    "whole_share": 67.6,
+    "be_price": 589.8,
+    "be_outturn": 18.1,
+    "sens": [
+      [
+        105.0,
+        140.4,
+        175.9,
+        211.4,
+        246.9
+      ],
+      [
+        77.0,
+        112.5,
+        147.9,
+        183.4,
+        218.9
+      ],
+      [
+        49.0,
+        84.5,
+        119.9,
+        155.4,
+        190.9
+      ],
+      [
+        21.0,
+        56.5,
+        92.0,
+        127.4,
+        162.9
+      ],
+      [
+        -7.0,
+        28.5,
+        64.0,
+        99.5,
+        134.9
+      ]
+    ],
+    "sens_steps": [
+      -0.1,
+      -0.05,
+      0,
+      0.05,
+      0.1
+    ],
+    "kernel_price": 709.8,
+    "rcn_price": 123.2,
+    "annual_contrib": {
+      "FY22-23": 9077178,
+      "FY23-24": 12030215,
+      "FY24-25": 9429830,
+      "FY25-26": 10099628
+    },
+    "total_kernel_KG": 338783
+  },
+  "buyer": {
+    "n_buyers": 130,
+    "tiers": {
+      "Low": 7,
+      "Medium": 90,
+      "High": 33
+    },
+    "exposure": {
+      "Low": 14125000.0,
+      "Medium": 44005000.0,
+      "High": 8961000.0
+    },
+    "top": [
+      {
+        "buyer": "ASHWANI KUMAR NEEL KAMAL",
+        "revenue": 30087806.53,
+        "orders": 26,
+        "avg_order": 1157223.328076923,
+        "recency": 18,
+        "risk": 29.6,
+        "tier": "Low",
+        "credit_limit": 2616000.0
+      },
+      {
+        "buyer": "Maa Laxmi Cashew Processing",
+        "revenue": 24082071.86,
+        "orders": 13,
+        "avg_order": 1852467.0661538462,
+        "recency": 470,
+        "risk": 51.4,
+        "tier": "Medium",
+        "credit_limit": 2189000.0
+      },
+      {
+        "buyer": "M/s Ashwani Kumar Neel Kamal",
+        "revenue": 20570081.4,
+        "orders": 19,
+        "avg_order": 1082635.8631578947,
+        "recency": 83,
+        "risk": 30.9,
+        "tier": "Low",
+        "credit_limit": 2571000.0
+      },
+      {
+        "buyer": "DEVIDEEN HANUMANPRASAD",
+        "revenue": 17125428.64,
+        "orders": 33,
+        "avg_order": 518952.38303030306,
+        "recency": 45,
+        "risk": 31.1,
+        "tier": "Low",
+        "credit_limit": 1489000.0
+      },
+      {
+        "buyer": "Satyam Traders",
+        "revenue": 10391862.52,
+        "orders": 16,
+        "avg_order": 649491.4075,
+        "recency": 524,
+        "risk": 44.9,
+        "tier": "Medium",
+        "credit_limit": 1039000.0
+      },
+      {
+        "buyer": "Nandi Cashew Processing",
+        "revenue": 10064273.89,
+        "orders": 7,
+        "avg_order": 1437753.412857143,
+        "recency": 615,
+        "risk": 58.1,
+        "tier": "Medium",
+        "credit_limit": 1438000.0
+      },
+      {
+        "buyer": "Shree Taran Traders",
+        "revenue": 7999479.52,
+        "orders": 36,
+        "avg_order": 222207.76444444444,
+        "recency": 301,
+        "risk": 34.5,
+        "tier": "Medium",
+        "credit_limit": 308000.0
+      },
+      {
+        "buyer": "P P Enterprises",
+        "revenue": 7725386.9,
+        "orders": 26,
+        "avg_order": 297130.2653846154,
+        "recency": 208,
+        "risk": 30.4,
+        "tier": "Low",
+        "credit_limit": 858000.0
+      },
+      {
+        "buyer": "Sashwat Traders",
+        "revenue": 7561262.100000001,
+        "orders": 11,
+        "avg_order": 687387.4636363637,
+        "recency": 497,
+        "risk": 45.1,
+        "tier": "Medium",
+        "credit_limit": 945000.0
+      },
+      {
+        "buyer": "Ramesh Chand Naresh Kumar",
+        "revenue": 7119040.710000001,
+        "orders": 22,
+        "avg_order": 323592.7595454546,
+        "recency": 31,
+        "risk": 27.9,
+        "tier": "Low",
+        "credit_limit": 1187000.0
+      },
+      {
+        "buyer": "DEB TRADERS",
+        "revenue": 5692490.98,
+        "orders": 6,
+        "avg_order": 948748.4966666667,
+        "recency": 222,
+        "risk": 43.5,
+        "tier": "Medium",
+        "credit_limit": 949000.0
+      },
+      {
+        "buyer": "M/s Devideen Hanuman Prasad",
+        "revenue": 5687172.99,
+        "orders": 13,
+        "avg_order": 437474.8453846154,
+        "recency": 389,
+        "risk": 43.9,
+        "tier": "Medium",
+        "credit_limit": 632000.0
+      },
+      {
+        "buyer": "M/s Satyam Traders",
+        "revenue": 5079971.0,
+        "orders": 8,
+        "avg_order": 634996.375,
+        "recency": 194,
+        "risk": 39.1,
+        "tier": "Medium",
+        "credit_limit": 726000.0
+      },
+      {
+        "buyer": "P P ENTERPRISE",
+        "revenue": 4956847.0,
+        "orders": 8,
+        "avg_order": 619605.875,
+        "recency": 167,
+        "risk": 37.4,
+        "tier": "Medium",
+        "credit_limit": 708000.0
+      },
+      {
+        "buyer": "M/s Nandi Cashew Processing",
+        "revenue": 4715780.0,
+        "orders": 3,
+        "avg_order": 1571926.6666666667,
+        "recency": 1175,
+        "risk": 81.2,
+        "tier": "High",
+        "credit_limit": 629000.0
+      }
+    ],
+    "lr": {
+      "auc": 0.96,
+      "acc": 0.923,
+      "coef": {
+        "revenue": 0.017,
+        "orders": -0.775,
+        "avg_order": 0.529,
+        "recency": 1.573,
+        "freq": -1.142,
+        "tenure": -1.004
+      },
+      "n_delay": 70,
+      "n_total": 130
+    },
+    "roc": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.05555555555555555,
+        0.05555555555555555,
+        0.2222222222222222,
+        0.2222222222222222,
+        0.5555555555555556,
+        0.5555555555555556,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.047619047619047616,
+        0.8571428571428571,
+        0.8571428571428571,
+        0.9047619047619048,
+        0.9047619047619048,
+        0.9523809523809523,
+        0.9523809523809523,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "anomaly": {
+    "n_zscore": 12,
+    "n_iso": 17,
+    "n_total": 29,
+    "pct": 3.4,
+    "recon_months_flagged": 3,
+    "top": [
+      {
+        "Company": "Ankita",
+        "Flow": "Purchase",
+        "Goods": "RCN",
+        "Date": "2022-11-19",
+        "Party": "New Kumudini Radio",
+        "Amount": 1907,
+        "Z": -0.92,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Adrita",
+        "Flow": "Purchase",
+        "Goods": "RCN",
+        "Date": "2023-11-03",
+        "Party": "SUNRICE CHEMICALS PVT LT",
+        "Amount": 20861,
+        "Z": -1.03,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Ankita",
+        "Flow": "Purchase",
+        "Goods": "RCN",
+        "Date": "2023-03-29",
+        "Party": "SUNRICE CHEMICALS PVT LT",
+        "Amount": 3035,
+        "Z": -0.91,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Ankita",
+        "Flow": "Purchase",
+        "Goods": "RCN",
+        "Date": "2023-02-06",
+        "Party": "D K Day & Sarker & Co",
+        "Amount": 10000,
+        "Z": -0.91,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Ankita",
+        "Flow": "Purchase",
+        "Goods": "FCN",
+        "Date": "2024-04-15",
+        "Party": "SUSHMA INDUSTRIES",
+        "Amount": 43000,
+        "Z": -1.38,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Ankita",
+        "Flow": "Purchase",
+        "Goods": "FCN",
+        "Date": "2023-09-03",
+        "Party": "DEVI CASHEW PROCESSING",
+        "Amount": 47619,
+        "Z": -1.37,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Adrita",
+        "Flow": "Purchase",
+        "Goods": "FCN",
+        "Date": "2025-09-22",
+        "Party": "MAA CHANDI CASHEW NUT PR",
+        "Amount": 51900,
+        "Z": -1.2,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Ankita",
+        "Flow": "Sale",
+        "Goods": "RCN",
+        "Date": "2023-12-01",
+        "Party": "Maa Laxmi Cashew Process",
+        "Amount": 3021429,
+        "Z": 2.39,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Ankita",
+        "Flow": "Sale",
+        "Goods": "FCN",
+        "Date": "2023-12-09",
+        "Party": "CHANDAN PURAKAYATWA",
+        "Amount": 14286,
+        "Z": -1.01,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Adrita",
+        "Flow": "Purchase",
+        "Goods": "RCN",
+        "Date": "2023-05-05",
+        "Party": "SUNRICE CHEMICALS PVT LT",
+        "Amount": 17524,
+        "Z": -1.03,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Ankita",
+        "Flow": "Purchase",
+        "Goods": "RCN",
+        "Date": "2022-05-10",
+        "Party": "CHAKADOLA POLYMERS PVT L",
+        "Amount": 14578,
+        "Z": -0.91,
+        "Reason": "Isolation Forest"
+      },
+      {
+        "Company": "Adrita",
+        "Flow": "Purchase",
+        "Goods": "FCN",
+        "Date": "2025-12-29",
+        "Party": "Shoel Cashew Processing",
+        "Amount": 285714,
+        "Z": -0.54,
+        "Reason": "Isolation Forest"
+      }
+    ]
+  },
+  "totals": {
+    "total_sales": 297576672.33000004,
+    "total_purchase": 270697824.13,
+    "n_sales": 578,
+    "n_purchase": 272
+  },
+  "sales_by_goods": {
+    "FCN": 240462802.2,
+    "RCN": 57113870.13
+  },
+  "rcn_price": 123.2,
+  "kernel_price": 709.8,
+  "descriptive": {
+    "Sale amount (\u20b9)": {
+      "count": 578,
+      "mean": 514838.5334429066,
+      "median": 349333.25,
+      "std": 511814.9511203666,
+      "min": 10476.2,
+      "max": 4000000.0,
+      "total": 297576672.33000004
+    },
+    "Purchase amount (\u20b9)": {
+      "count": 272,
+      "mean": 995212.5887132352,
+      "median": 565386.13,
+      "std": 1082648.777086846,
+      "min": 1906.78,
+      "max": 5041701.28,
+      "total": 270697824.13
+    },
+    "RCN price (\u20b9/KG)": {
+      "count": 79,
+      "mean": 126.47899861415301,
+      "median": 120.01899546690844,
+      "std": 25.347935411243334,
+      "min": 89.03963140506575,
+      "max": 179.1442022080186,
+      "total": 9991.840890518088
+    },
+    "Buyer revenue (\u20b9)": {
+      "count": 130,
+      "mean": 2272581.860615385,
+      "median": 893286.525,
+      "std": 4303063.674366225,
+      "min": 10476.2,
+      "max": 30087806.53,
+      "total": 295435641.88000005
+    },
+    "Buyer orders (count)": {
+      "count": 130,
+      "mean": 4.2846153846153845,
+      "median": 2.0,
+      "std": 5.966618529169574,
+      "min": 1.0,
+      "max": 36.0,
+      "total": 557.0
+    },
+    "Buyer risk score (0-100)": {
+      "count": 130,
+      "mean": 55.65538461538462,
+      "median": 54.8,
+      "std": 13.609891874209303,
+      "min": 27.8,
+      "max": 100.0,
+      "total": 7235.200000000001
+    },
+    "Contribution per kg kernel (\u20b9)": {
+      "count": 3,
+      "mean": 80.09339900302128,
+      "median": 119.94949607203989,
+      "std": 173.46867542925804,
+      "min": -109.83464953148803,
+      "max": 230.16535046851197,
+      "total": 240.28019700906384
+    }
+  }
+}
